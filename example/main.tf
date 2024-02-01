@@ -1,5 +1,5 @@
 module "tagging" {
-  source = "git::https://github.com/CD-TeraformModules/global-tags.git" #source of the module
+  source = "git::https://github.com/shivendra-pratap-compunnel/global-tags.git" #source of the module
 }
 
 # your rest of the terraform configuration (resources)
