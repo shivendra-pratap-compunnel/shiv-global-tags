@@ -8,7 +8,7 @@ This Terraform configuration sets up tagging for AWS resources. It utilizes a mo
 ## Put this in main.tf (Required)
 ```hcl
 module "tagging" {
-  source = "git::https://github.com/CD-TeraformModules/global-tags.git" #source of the module
+  source = "git::https://github.com/shivendra-pratap-compunnel/global-tags.git" #source of the module
 }
 
 # your rest of the terraform configuration (resources)
